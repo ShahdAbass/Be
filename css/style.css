@@ -63,9 +63,7 @@
     padding: 0px;
     border: none;
     outline: none;
-    background: url(../images/خلفية\ الموقع\ .svg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    
 }
 
 /*** 
@@ -83,7 +81,7 @@ body {
     font-size: 16px;
     line-height: 1.5em;
     font-weight: 400;
-    background: #ffffff;
+    
     -webkit-font-smoothing: antialiased;
     -moz-font-smoothing: antialiased;
     
@@ -1518,8 +1516,9 @@ form label.error {
 ***/
 
 body.home-one {
-    background: #050023;
-    color: #ffffff;
+    background: url("../images/img.svg");
+    background-repeat: no-repeat no-repeat;
+    background-size: cover;
 }
 
 body.home-one h1,
@@ -1564,7 +1563,6 @@ body.home-one h6 {
     width: 100%;
     background: none;
     padding: 0 0;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.30);
     transition: all 300ms ease;
     -moz-transition: all 300ms ease;
     -webkit-transition: all 300ms ease;
@@ -1575,7 +1573,7 @@ body.home-one h6 {
 .fixed-header .header-upper {
     position: fixed;
     top: 0;
-    background: #050023;
+    
     border-bottom-color: #414073;
 }
 
@@ -1595,7 +1593,7 @@ body.home-one h6 {
     position: relative;
     display: block;
     float: left;
-    padding: 27px 0px;
+    padding: 30px 0px;
     transition: all 300ms ease;
     -moz-transition: all 300ms ease;
     -webkit-transition: all 300ms ease;
@@ -1616,7 +1614,7 @@ body.home-one h6 {
 .main-header .main-box .logo-box .logo img {
     position: relative;
     display: block;
-    height: 30px;
+    height: 60px;
     z-index: 1;
 }
 
@@ -1829,12 +1827,13 @@ body.home-one h6 {
 .main-header .nav-outer {
     position: relative;
     float: left;
+
 }
 
 .main-menu {
     position: relative;
     display: block;
-    padding: 0px 0px;
+    padding: 5px 5px;
 }
 
 .main-menu .navbar-collapse {
@@ -1860,12 +1859,13 @@ body.home-one h6 {
     -ms-transition: all 300ms ease;
     -o-transition: all 300ms ease;
     transition: all 300ms ease;
+    
 }
 
 .main-menu .navigation>li>a {
     position: relative;
     display: block;
-    font-size: 14px;
+    font-size: 25px;
     color: #E0E0E0;
     padding: 7px 0px;
     font-weight: 500;
@@ -4054,7 +4054,7 @@ body.visible-sidebar {
 .main-footer {
     position: relative;
     padding: 0 0;
-    background: #140E3A;
+    
     text-align: center;
 }
 
