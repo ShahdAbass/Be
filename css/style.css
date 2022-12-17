@@ -18166,3 +18166,116 @@ body.home-nine .scroll-to-top img {
         right: -10px
     }
 }
+
+
+
+
+
+
+.stups-area .single-sutps .guest-contents {
+    -webkit-transition: all .4s ease-out 0s;
+    -moz-transition: all .4s ease-out 0s;
+    -ms-transition: all .4s ease-out 0s;
+    -o-transition: all .4s ease-out 0s;
+    transition: all .4s ease-out 0s;
+    position: absolute;
+    left: 30px;
+    bottom: 25px;
+    z-index: 1
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .stups-area .single-sutps .guest-contents {
+        left: 20px
+    }
+}
+
+@media (max-width: 575px) {
+    .stups-area .single-sutps .guest-contents {
+        left: 20px
+    }
+}
+
+.stups-area .single-sutps .guest-contents h3 a {
+    -webkit-transition: all .4s ease-out 0s;
+    -moz-transition: all .4s ease-out 0s;
+    -ms-transition: all .4s ease-out 0s;
+    -o-transition: all .4s ease-out 0s;
+    transition: all .4s ease-out 0s;
+    color: #fff;
+    display: inline-block;
+    font-size: 22px;
+    font-weight: 700
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .stups-area .single-sutps .guest-contents h3 a {
+        font-size: 18px
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .stups-area .single-sutps .guest-contents h3 a {
+        font-size: 18px
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .stups-area .single-sutps .guest-contents h3 a {
+        font-size: 18px
+    }
+}
+
+@media (max-width: 575px) {
+    .stups-area .single-sutps .guest-contents h3 a {
+        font-size: 22px
+    }
+}
+
+.stups-area .single-sutps .guest-contents h3 a:hover {
+    color: #fff
+}
+
+.stups-area .single-sutps .guest-contents p {
+    margin-bottom: 10px;
+    color: #fff;
+    font-weight: 300;
+    font-size: 14px;
+    margin-bottom: 15px
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .stups-area .single-sutps .guest-contents p {
+        font-size: 14px
+    }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1600px) {
+    .stups-area .single-sutps .guest-contents p br {
+        display: none
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .stups-area .single-sutps .guest-contents p br {
+        display: none
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .stups-area .single-sutps .guest-contents p br {
+        display: none
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .stups-area .single-sutps .guest-contents p br {
+        display: none
+    }
+}
+
+@media (max-width: 575px) {
+    .stups-area .single-sutps .guest-contents p br {
+        display: none
+    }
+}
