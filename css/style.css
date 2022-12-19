@@ -1145,7 +1145,7 @@ p {
     background-color: #ffffff;
     background-position: center center;
     background-repeat: no-repeat;
-    background-image: url(../images/icons/preloader.svg);
+    background-image: url(../images/شعار\ \ logo\ مكتبة\ أنيق\ بني\ و\ زهري\ .gif);
     background-size: 100px;
 }
 
@@ -1589,7 +1589,7 @@ body.home-one h6 {
     padding: 0px;
 }
 
-.main-header .main-box .logo-box {
+.main-header .main-box . {
     position: relative;
     display: block;
     float: left;
@@ -1609,14 +1609,16 @@ body.home-one h6 {
 .main-header .main-box .logo-box .logo {
     position: relative;
     display: block;
-    float: left;
+    float: right;
 }
 
 .main-header .main-box .logo-box .logo img {
     position: relative;
-    display: block;
-    height: 60px;
+    display:block;
+    padding-top: 10px;
+    height: 80px;
     z-index: 1;
+
 }
 
 .main-header .lang-box {
